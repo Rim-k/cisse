@@ -1156,6 +1156,10 @@ body {
   margin-bottom: 30px;
   text-align: center; }
 
+.mh-professional-progress {
+  padding-top: 45px
+}
+
 .mh-progress {
   margin-bottom: 10px;
   font: 900 1.1428571429em/1 Cinzel, cursive; }

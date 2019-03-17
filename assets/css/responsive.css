@@ -437,6 +437,9 @@
     padding-right: 0;
     padding: 0 15px; }
 
+  .mh-professional-progress {
+    padding-top: 0px
+  }
   .mh-experince h3 {
     margin-bottom: 30px;
     text-align: center; }
@@ -537,6 +540,11 @@
     width: 280px; }
 
   .home-padding {
-    padding: 60px 0; } }
+    padding: 60px 0; } 
+  
+  .mh-professional-progress {
+    padding-top: 0px
+  }
+}
 
 /*# sourceMappingURL=responsive.css.map */
