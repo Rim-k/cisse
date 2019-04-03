@@ -5,7 +5,7 @@
           zoom: 17,
           scrollwheel: false, 
           navigationControl: false,
-          center: new google.maps.LatLng(48.8753,2.2280000000000655),
+          center: new google.maps.LatLng(48.857462, 2.346371),
           styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},
           {"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},
           {"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},
@@ -23,9 +23,9 @@
       var mapElement = document.getElementById('mh-map');
       var map = new google.maps.Map(mapElement, mapOptions);
       var marker = new google.maps.Marker({
-          position: new google.maps.LatLng(48.8753,2.2280000000000655),
+          position: new google.maps.LatLng(48.857462, 2.346371),
           map: map,
-          title: '1 Rue des Velettes, 92150 Suresnes, France'
+          title: 'Paris area, France'
       });
     }
 
