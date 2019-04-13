@@ -12,6 +12,7 @@
   -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
 
+
 @media only screen and (max-width: 1400px) {
   .mh-single-project-slide-by-side .owl-prev {
     top: 40%;
@@ -539,11 +540,27 @@
     height: 280px;
     width: 280px; }
 
+  .mh-home .hero-img {
+    margin-bottom: 0px; 
+    margin-top: 0px;
+  }
+
   .home-padding {
     padding: 60px 0; } 
   
   .mh-professional-progress {
     padding-top: 0px
+  }
+
+  .mh-work .mh-experience-deatils .mh-work-item .company-logo {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 10px;
+  }
+
+  .mh-work .mh-experience-deatils .mh-work-item h4 a::before {
+    content: "\A";
+    background-color: #fff;
   }
 }
 
