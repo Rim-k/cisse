@@ -168,7 +168,7 @@ a {
 
 /**
  * --------------------------------------
- *  Video Section Background Defult Style
+ *  Video Section Background Default Style
  * --------------------------------------
  */
 .section-video {
@@ -1107,6 +1107,19 @@ body {
     margin-top: 20px; }
     .mh-about .mh-about-inner .btn .fa {
       margin-left: 10px; }
+
+  .mh-about #certifications {
+    text-align: center;
+  }
+    .mh-about #certifications_badges {
+      display: inline-block;
+    }
+      .mh-about #certifications_badges a img {
+        width: 150px;
+        height: 150px;
+        margin-left: 10px;
+        margin-top: 20px;
+      }
 
 .mh-about-tag {
   word-break: break-all;
