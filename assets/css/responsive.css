@@ -453,6 +453,12 @@
   .mh-professional-progress {
     padding-top: 0px
   }
+
+  .mh-service .mh-service-col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  
   .mh-experince h3 {
     margin-bottom: 30px;
     text-align: center; }
