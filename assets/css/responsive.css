@@ -300,13 +300,17 @@
   .mh-xs-mobile-nav .navbar-nav {
     padding-top: 50px;
     padding-right: 20px; } }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 834px) {
 
+  .mh-service .mh-service-col {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
   .mh-service .mh-service-item {
     margin-bottom: 20px; 
     display: block;
     overflow: auto;
-    height: 400px;
+    height: 270px;
     padding: 12px;
   }
 
@@ -355,9 +359,17 @@
     display: block; 
   }
 
+  .mh-education-deatils .col-sm-6 {
+    width: 100%;
+  }
+
   .mh-education {
     padding-right: 0; }
   
+  .mh-education-col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
   .mh-education-item {
     margin: 15px;
   }
